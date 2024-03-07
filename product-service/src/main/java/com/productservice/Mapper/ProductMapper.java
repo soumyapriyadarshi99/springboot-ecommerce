@@ -1,7 +1,7 @@
-package com.productservice.Mapper;
+package com.productService.mapper;
 
-import com.productservice.dto.ProductResponse;
-import com.productservice.model.Product;
+import com.productService.dto.ProductResponse;
+import com.productService.model.Product;
 
 public class ProductMapper {
     public static ProductResponse mapToProductResponse(Product product){

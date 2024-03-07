@@ -1,9 +1,9 @@
-package com.productservice.controller;
+package com.productService.controller;
 
-import com.productservice.dto.ProductRequest;
+import com.productService.dto.ProductRequest;
 
-import com.productservice.dto.ProductResponse;
-import com.productservice.service.ProductService;
+import com.productService.dto.ProductResponse;
+import com.productService.service.ProductService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -29,3 +29,4 @@ public class ProductController {
         return productService.getAllProducts();
     }
 }
+

@@ -1,4 +1,4 @@
-package com.productservice.dto;
+package com.productService.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,3 +16,4 @@ public class ProductRequest {
     private String description;
     private BigDecimal price;
 }
+
